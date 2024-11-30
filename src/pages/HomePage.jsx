@@ -1,4 +1,4 @@
-import HomePageContent from "../components/HomePageContent"
+import { HomePageContent } from "../components/HomePageContent"
 import HomePageHeader from "../components/HomePageHeader"
 import { HomePageNavbar } from "../components/HomePageNavbar"
 
