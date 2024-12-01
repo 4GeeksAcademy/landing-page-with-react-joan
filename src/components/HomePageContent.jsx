@@ -12,7 +12,6 @@ export const HomePageContent = () => {
                 )
             }
             </Row>
-
-        </Container>
+        </Container> 
     )
 }

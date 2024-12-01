@@ -1,18 +1,19 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Button, Card, Container } from "react-bootstrap";
 
-export const HomePageCard = ()=> {
+
+export const HomePageCard = () => {
   return (
-    <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+    <Card className="text-center mb-4" style={{ width: '18rem' }}>
+      <Card.Img variant="top" src="http://placehold.it/500x325" />
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
         <Card.Text>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit optio perferendis inventore fugit facere ipsum a repellendus consequuntur aut! Ratione architecto, perspiciatis neque aliquid enim ex labore. Nemo, placeat pariatur?
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
       </Card.Body>
+      <Card.Footer>
+        <Button variant="primary">Find Out More!</Button>
+      </Card.Footer>
     </Card>
   );
 }
