@@ -1,16 +1,16 @@
-import { HomePageContent } from "../components/HomePageContent"
-import HomePageHeader from "../components/HomePageHeader"
 import { HomePageNavbar } from "../components/HomePageNavbar"
+import { HomePageHeader } from "../components/HomePageHeader"
+import { HomePageContent } from "../components/HomePageContent"
+import { HomePageFooter } from "../components/HomePageFooter"
 
-const HomePage = () => {
+export const HomePage = () => {
     return (
         <>
         <HomePageNavbar />
         <HomePageHeader />
         <HomePageContent/>
+        <HomePageFooter/>
         </>
     )
 
 }
-
-export default HomePage

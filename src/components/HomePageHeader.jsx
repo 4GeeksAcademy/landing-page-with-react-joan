@@ -1,7 +1,7 @@
 import { Button } from "react-bootstrap"
 
 
-const HomePageHeader = () => {
+export const HomePageHeader = () => {
     return (
         <header>
             <h1> A Warm Welcome! </h1>
@@ -10,5 +10,3 @@ const HomePageHeader = () => {
         </header>
     )
 }
-
-export default HomePageHeader
